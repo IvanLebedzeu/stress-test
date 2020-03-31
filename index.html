@@ -1,7 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/scripts.js"></script>
     <title>Stress Test</title>
   </head>
+  <body>
+    <div class = "container">
+      <h1>Stress Test</h1>
+      <form id = "formOne">
+        
+        <div class = "form-group">
+          <h4>Do you suffer from any of these negative symptoms when you are stressed?</h4>
+          <input type = "checkbox" name = "negative" value = "sleep"> Problems with sleeping <br>
+          <input type = "checkbox" name = "negative" value = "hobbies">Lack of Interest in hobbies <br>
+          <input type = "checkbox" name = "negative" value = "depression">Feeling like there is no point to life<br>
+          <input type = "checkbox" name = "negative" value = "anxious">Constant sense of imminent doom <br>
+          <input type = "checkbox" name = "negative" value = "lethargic">Lethargy or feeling very low energy <br>
+          <input type = "checkbox" name = "negative" value = "drugs">Increase in smoking or use of non-perscription drugs <br>
+          <input type = "checkbox" name="negative" value = "alcohol">Increase in intake of alcohol <br>
+          <input type = "checkbox" name="negative" value="avoidance">Avoidance of stressors; such as skipping school or work <br>
+          <input type = "checkbox" name="negative" value="anger">Feeling disproportionate amounts of anger at problems<br>
+          <input type = "checkbox" name="negative" value="brain">Thinking and Memory problems <br>
+          <input type = "checkbox" name="negative" value="selfHarm">Self Harming or Self Harm Urges <br>
+          <input type = "checkbox" name="negative" value="noWork">Not doing homework or working on projects <br>
+        </div>
+        
+        <div class = "form-group">
+          <h4>Which of health symptoms linked to high stress do you have?</h4>
+          <input type = "checkbox" name = "symptoms" value = "blood"> High blood pressure <br>
+          <input type = "checkbox" name = "symptoms" value = "skin"> Problems with skin <br>
+          <input type = "checkbox" name = "symptoms" value = "anxiety"> Anxiety <br>
+          <input type = "checkbox" name = "symptoms" value = "rate"> Heart rate <br>
+          <input type = "checkbox" name = "symptoms" value = "pain">General Aches and Pains <br>
+          <input type = "checkbox" name = "symptoms" value = "depression">Depression and anxiety <br>
+          <input type = "checkbox" name = "symptoms" value = "disease">Autoimmune Diseases <br>
+          <input type = "checkbox" name = "symptoms" value = "digestive">Digestive Issues <br>
+          <input type = "checkbox" name = "symptoms" value = "acne">Skin problems such as acne or eczema <br>
+          <input type = "checkbox" name="symptoms" value = "heart">Heart Disease <br>
+          <input type = "checkbox" name="symptoms" value="weight">Weight Issues <br>
+          <input type = "checkbox" name="symptoms" value="reproductive">Reproductive Issues <br>
+          
+        
+        </div>
+        
+        <div class="form-group">
+          <h4>Which of these coping mechanisms are you using?</h4>
+          <input type="checkbox" name="copingSkills" value="meditation">Meditation <br>
+          <input type="checkbox" name="copingSkills" value="outside">Doing exercise outside <br>
+          <input type="checkbox" name="copingSkills" value="animal">Playing or hanging out with a pet <br>
+          <input type="checkbox" name="copingSkills" value="therapy">Seeing a therapist or psychiatrist<br>
+          <input type="checkbox" name="copingSkills" value="medications">Taking all prescribed medications daily <br>
+          <input type="checkbox" name="copingSkills" value="music">Listening to music <br>
+          <input type="checkbox" name="copingSkills" value="supportNetwork">Reaching out to your support network or a crisis line in times of need <br>
+          <input type="checkbox" name="copingSkills" value="friends">Spending time with friends <br>
+          <input type="checkbox" name="copingSkills" value="reading">Reading <br>
+          <input type="checkbox" name="copingSkills" value="enrichment">Spending time on hobbies such as art or writing<br>
+        </div>
+        <button type = "submit">Submit!</button>
+      </form>
+      <div class = "result1">
+        <p>You are extremely stressed and not using healthy coping mechanisms. Try setting up an appoinment with a doctor or a therapist as well as reaching out to your family or friends.</p>
+      </div>
+
+      <div class = "result2">
+        <p>You are a little stressed out. You can try meditation, exercise, seeing a therapist, or talking with a friend.</p>
+      </div>
+
+      <div class = "result3">
+        <p>Your mental health is great! Don't be afraid to seek help if you need it - and make sure to maintain your support network!</p>
+      </div>
+      
+    </div>
+  </body>
 
 </html>
