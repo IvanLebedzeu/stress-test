@@ -19,7 +19,7 @@ $(document).ready(function(){
 
     if (negative >= 6 && skills <= 3) { 
       $(".result1").show(); 
-    } else if ((negative <= 5 && negative >= 2) && (skills >= 3 && skills >= 7)) {
+    } else if ((negative <= 5 && negative >= 2) && (skills >= 3 && skills >= 7)) {  
       $(".result2").show();
     } else if (negative <= 1 && skills >= 8) {
       $(".result3").show();
