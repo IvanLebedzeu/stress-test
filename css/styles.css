@@ -1,11 +1,19 @@
 .result1 {
-  display: none
+  display: none;
 }
 
 .result2 {
-  display: none
+  display: none;
 }
 
 .result3 {
-  display: none
+  display: none;
+}
+
+#restartButton {
+  display: none;
+}
+
+.result4 {
+  display: none;
 }
